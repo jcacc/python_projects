@@ -2,7 +2,7 @@ import json
 import requests
 import os
 
-od_Store_ID = '45731'
+od_Store_ID = os.environ.get('OD_API')
 od_API_Key = os.environ.get('OD_API')
 
 def od_FetchStore():

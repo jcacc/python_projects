@@ -7,17 +7,18 @@ import csv
 import os
 
 A2000_PWD = os.environ.get('A2000_PWD')
+A2000_USER = os.environ.get('A2000_PWD')
 cx_Oracle.init_oracle_client(lib_dir=r"C:\Oracle_Instant_Client\instantclient_21_3")
 
 
 # establish connection to the Oracle database
-connection = cx_Oracle.connect(user="nkw", password=A2000_PWD, dsn="A2000")
+connection = cx_Oracle.connect(user=A2000_USER, password=A2000_PWD, dsn=" ")
 
 # create a cursor object
 cursor = connection.cursor()
 
 # execute the query
-cursor.execute("SELECT CUST_NO FROM NKW.CUST_M")
+cursor.execute(" ")
 
 # fetch all the rows
 rows = cursor.fetchall()

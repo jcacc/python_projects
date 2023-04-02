@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ScrobbleStat", "ScrobbleStat\ScrobbleStat.pyproj", "{6DD7B48F-1C8E-475F-8FC9-0400D9BCD5DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD7B48F-1C8E-475F-8FC9-0400D9BCD5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD7B48F-1C8E-475F-8FC9-0400D9BCD5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4708FFA1-42B0-49D6-923D-9226E96EC6B3}
+	EndGlobalSection
+EndGlobal

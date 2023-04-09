@@ -9,7 +9,7 @@ myName = input()
 number = random.randint(1, 20)
 print(f'Well, {myName}, I am thinking of a number between 1 and 20.')
 
-for guessesTaken in range(6)
+for guessesTaken in range(6):
     print('Take a guess.')
     guess = input()
     guess = int(guess)
@@ -27,4 +27,3 @@ if guess == number:
     guessesTaken = str(guessesTaken + 1)
     print(f'Good job, {myName}! You guessed my number in {guessesTaken} guesses!')
 
-    

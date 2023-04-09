@@ -18,7 +18,7 @@ for guessesTaken in range(6):
         print('Your guess is too low.')
 
     if guess > number:
-        print('Your guess is to high.')
+        print('Your guess is too high.')
 
     if guess == number:
         break

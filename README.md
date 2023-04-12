@@ -1,4 +1,4 @@
-### python_projects
+### p<sup>3</sup>
 *~~private~~ public python projects (re)pository*
 
 

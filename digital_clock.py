@@ -24,8 +24,8 @@ try:
         sTopRow, sMiddleRow, sBottomRow = sDigits.splitlines()
 
         print(hTopRow + '     ' + mTopRow + '     ' + sTopRow)
-        print(hMiddleRow + '  *  ' + mMiddleRow + '  *  ' + sMiddleRow)
-        print(hBottomRow + '  *  ' + mBottomRow + '  *  ' + sBottomRow)
+        print(hMiddleRow + '  ●  ' + mMiddleRow + '  ●  ' + sMiddleRow)
+        print(hBottomRow + '  ●  ' + mBottomRow + '  ●  ' + sBottomRow)
         print()
         print('Press Ctrl-C to quit.')
 

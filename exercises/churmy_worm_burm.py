@@ -5,7 +5,7 @@
 import random, pygame, sys
 from pygame.locals import *
 
-FPS = 15
+FPS = 10
 WINDOWWIDTH = 800
 WINDOWHEIGHT = 600
 CELLSIZE = 20

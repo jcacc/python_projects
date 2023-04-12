@@ -1,5 +1,5 @@
 ### python_projects
-*private python projects (re)pository*
+*~~private~~ public python projects (re)pository*
 
 
 ### what's in here?

@@ -38,8 +38,25 @@ def getWords():
     secretPassword = random.choice(WORDS)
     words = [secretPassword]
 
-    while
+    # Find two more words; these have zero matching letters.
+    # We use "< 3" because the secret password is already in words.
+    while len(words) < 3:
+        randomWord = getOneWordExcept(words)
+        if numMatchingLetters(secretPassword, randomWord) == 0:
+            words.append(randomWord)
 
+    # Find two words that have 3 matching letters (but give up at 500
+    # tries if not enough can be found).
+    for i in range(500):
+        if len(words) == 5:
+            break # Found 5 words, so break out of the loop.
+
+        randomWord = getOneWordExcept(words)
+        if numMatchingLetters(secretPassword, randomWord) == 3:
+            words.append(randomWord)
+    
+    # Find at least seven words that have at least one matching letter
+    # (but give up at 500 tries if not enough can be found).
 
 
 

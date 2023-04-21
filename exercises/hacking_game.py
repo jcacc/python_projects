@@ -18,7 +18,7 @@ def main():
     player guessed CONTAIN, they are given the hint that 2 out of 7 letters
     were correct, because both MONITOR and CONTAIN have the letter O and N
     as their 2nd and 3rd letter. You get four guesses.\n''')
-    input('Press ENTER to begin..')
+    input('Press ENTER to begin...')
 
     gameWords = getWords()
     computerMemory = getComputerMemoryString(gameWords)

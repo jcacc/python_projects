@@ -28,11 +28,13 @@ def main():
     for triesRemaining in range(4, 0, -1):
         playerMove = askForPlayerGuess(gameWords, triesRemaining)
         if playerMove == secretPassword:
-            print('𝐀 𝐂 𝐂 𝐄 𝐒 𝐒   𝐆 𝐑 𝐀 𝐍 𝐓 𝐄 𝐃')
+            print('\033[32m 𝐀 𝐂 𝐂 𝐄 𝐒 𝐒   𝐆 𝐑 𝐀 𝐍 𝐓 𝐄 𝐃 \033[0m')
             return
         else:
             numMatches = numMatchingLetters(secretPassword, playerMove)
-            print('Access Denied ({}/7 correct)'.format(numMatches))
+            # print('Access Denied ({}/7 correct)'.format(numMatches))
+            print('\033[31m\033[1mAccess Denied ({}/7 correct)'.format(numMatches) + '\033[0m')
+
     print('Out of tries. Secret password was {}.'.format(secretPassword))
 
 def getWords():
